@@ -1,7 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fae4ca1-e02c-46db-a699-ba75a3eac2a1" name="Default" comment="" />
+    <list default="true" id="3fae4ca1-e02c-46db-a699-ba75a3eac2a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/10_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/10_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/10_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/10_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/10_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/10_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/10_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/10_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/10_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/10_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/10_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/11_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/11_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/11_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/11_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/11_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/11_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/11_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/11_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/11_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/11_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/11_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/12_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/12_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/12_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/12_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/12_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/12_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/12_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/12_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/12_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/12_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/12_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/13_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/13_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/13_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/13_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/13_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/13_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/13_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/13_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/13_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/13_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/13_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/14_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/14_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/14_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/14_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/14_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/14_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/14_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/14_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/14_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/14_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/14_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/15_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/15_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/15_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/15_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/15_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/15_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/15_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/15_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/15_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/15_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/15_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/16_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/16_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/16_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/16_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/16_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/16_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/16_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/16_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/16_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/16_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/16_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/1_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/1_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/1_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/1_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/1_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/1_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/1_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/1_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/1_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/1_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/1_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/2_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/2_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/2_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/2_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/2_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/2_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/2_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/2_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/2_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/2_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/2_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/3_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/3_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/3_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/3_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/3_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/3_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/3_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/3_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/3_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/3_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/3_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/4_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/4_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/4_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/4_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/4_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/4_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/4_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/4_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/4_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/4_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/4_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/5_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/5_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/5_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/5_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/5_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/5_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/5_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/5_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/5_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/5_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/5_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/6_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/6_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/6_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/6_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/6_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/6_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/6_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/6_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/6_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/6_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/6_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/7_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/7_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/7_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/7_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/7_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/7_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/7_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/7_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/7_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/7_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/7_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/8_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/8_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/8_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/8_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/8_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/8_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/8_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/8_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/8_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/8_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/8_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/9_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/9_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/9_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/9_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/9_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/9_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/9_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/9_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/9_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/9_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/9_9.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_gcode.py" afterPath="$PROJECT_DIR$/read_gcode.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +194,8 @@
       <file leaf-file-name="read_gcode.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/read_gcode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="20" column="69" lean-forward="false" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+            <state relative-caret-position="275">
+              <caret line="54" column="80" lean-forward="false" selection-start-line="54" selection-start-column="80" selection-end-line="54" selection-end-column="80" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -32,10 +212,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/output/test.py" />
+        <option value="$PROJECT_DIR$/Test.py" />
         <option value="$PROJECT_DIR$/read_gcode.py" />
       </list>
     </option>
@@ -46,6 +230,7 @@
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -94,6 +279,23 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.read_gcode">
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gCode_Extraction" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="read_gcode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,14 +330,16 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.read_gcode" />
       <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Test" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Python.read_gcode" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -155,16 +359,16 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33112583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33112583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -213,11 +417,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/test.py" />
     <entry file="file://$PROJECT_DIR$/read_gcode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="69" lean-forward="false" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/test.py" />
+    <entry file="file://$PROJECT_DIR$/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_gcode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="54" column="80" lean-forward="false" selection-start-line="54" selection-start-column="80" selection-end-line="54" selection-end-column="80" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
