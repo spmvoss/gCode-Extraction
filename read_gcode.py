@@ -4,6 +4,7 @@ import numpy
 
 layers = {}
 out_dir = "output/"
+csv_dir = "output/csv/"
 currentLayer = 0
 currentSub = 0
 currentZ = 0
@@ -52,7 +53,7 @@ with open("layer3.txt") as file:
                             already existing coordinates. 
                             """
                             dist = ((coordinate[0]-previousCoord[0])**2 + (coordinate[1]-previousCoord[1])**2)**0.5
-                            if coordinate not in layers[key_name] and dist > 0.1:
+                            if coordinate not in layers[key_name] and dist > 0.05:
                                 layerList = layers[key_name]    # Grab the current list of coordinates
                                 layerList.append(coordinate)    # Append with new coordinate
                                 layers[key_name] = layerList    # Write back to dictionary
@@ -67,4 +68,16 @@ for keys in layers:
             writer = csv.writer(csv_file, delimiter="\t")   # Create writer with file structure
             for line in layers[keys]:   # Go over the lines in each dict
                 writer.writerow(line)   # Write each line to the open file
+
+for keys in layers:
+    # iterate over all the keys in the layers dictionary
+    if layers[keys]:
+        # Because of the way that this script is set up the last dict entry of each layer is empty. Skip that in writing
+        path = os.path.join(csv_dir, keys + '.txt') # Create the output path
+        with open(path, "w") as csv_file:   # Create the file
+            writer = csv.writer(csv_file, lineterminator='\n')   # Create writer with file structure
+            for line in layers[keys]:   # Go over the lines in each dict
+                writer.writerow(line)   # Write each line to the open file
+
+
 
