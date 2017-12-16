@@ -16,7 +16,7 @@ class Processor():
         :param use_intermediates: Boolean True = intermediate points will be generated when distance > max_dist
         """
         self.csv_dir = csv_out_directory
-        self.filename = filename
+        self.filename = "input/" + filename
         self.min_dist = min_dist
         self.use_inter = use_intermediates
 
@@ -26,8 +26,23 @@ class Processor():
         else:
             self.d = 0.
             self.max_dist = float('inf')
+        self.check_folder_structure()
 
     layers = {}
+
+    @staticmethod
+    def check_folder_structure():
+        """
+        Checks if folder structure is present and otherwise will generate it
+        """
+        if not os.path.exists("output"):
+            os.makedirs("output")
+            os.makedirs("output/csv")
+            os.makedirs("output/SW")
+            os.makedirs("output/SW/extrudes")
+        if not os.path.exists("logs"):
+            os.makedirs("logs")
+        return None
 
     def intermediates(self, p1, p2, z):
         """"Return a list of equally spaced points
@@ -71,14 +86,14 @@ class Processor():
                 if len(rows) == 2 and "G92" in rows and current_layer != 0:
                     if current_sub == 0:  # We have just changed layer
                         current_sub = current_sub + 1
-                        key_name = current_layer + "_" + str(current_sub)
-                        self.layers[
-                            key_name] = []  # Create a new key in the dict with an empty array for the layer's coordinates
+                        key_name = str(current_layer) + "_" + str(current_sub)
+                        # Create a new key in the dict with an empty array for the layer's coordinates
+                        self.layers[key_name] = []
                     elif self.layers[key_name]:
                         current_sub = current_sub + 1
-                        key_name = current_layer + "_" + str(current_sub)
-                        self.layers[
-                            key_name] = []  # Create a new key in the dict with an empty array for the layer's coordinates
+                        key_name = str(current_layer) + "_" + str(current_sub)
+                        # Create a new key in the dict with an empty array for the layer's coordinates
+                        self.layers[key_name] = []
                 if current_layer != 0:  # Skip all nonsense before first layer
                     for items in rows:  # Iterate over the items in the row to check if it has X coordinates
                         if "X" in items:
@@ -134,7 +149,7 @@ class Processor():
             self.write_csv()
 
     @staticmethod
-    def seq_names(layer_n: str, line_n: str):
+    def seq_names(layer_n: str, line_n: str) -> str:
         """
         This method takes the layer number and line number and outputs a sequence name in the format of xxx_xxx
         :param layer_n: The layer number
@@ -157,6 +172,7 @@ class Processor():
         else:
             key_name = layer_n + key_end
         return key_name
+
 
 # Here the script is run and where the correct settings are put in
 Processor(filename="model.gcode").write_csv()
