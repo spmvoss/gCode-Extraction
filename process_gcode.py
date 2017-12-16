@@ -1,10 +1,16 @@
 import csv
 import os
 import math
+from shutil import copyfile, copytree
+import tkinter as tk
+from tkinter import filedialog
+
+root = tk.Tk()
+root.withdraw()
 
 
 class Processor():
-    def __init__(self, filename: str, csv_out_directory: str = "output/csv",
+    def __init__(self, project_name: str = None, csv_out_directory: str = "/output/csv",
                  sub_distance: float = 0.1, min_dist: float = 0.1, max_dist: float = 0.5,
                  use_intermediates: bool = False):
         """
@@ -15,10 +21,17 @@ class Processor():
         :param max_dist: Maximum distance before which intermediate points get added (might be useful for splines)
         :param use_intermediates: Boolean True = intermediate points will be generated when distance > max_dist
         """
-        self.csv_dir = csv_out_directory
-        self.filename = "input/" + filename
+        self.filename = filedialog.askopenfilename()
         self.min_dist = min_dist
         self.use_inter = use_intermediates
+
+        if project_name:
+            self.project_name = project_name + "/"
+        else:
+            self.project_name = filename.split(".", -1) + "/"
+            print(self.project_name)
+
+        self.csv_dir = self.project_name + csv_out_directory
 
         if use_intermediates:
             self.d = sub_distance
@@ -30,18 +43,20 @@ class Processor():
 
     layers = {}
 
-    @staticmethod
-    def check_folder_structure():
+    def check_folder_structure(self):
         """
         Checks if folder structure is present and otherwise will generate it
         """
-        if not os.path.exists("output"):
-            os.makedirs("output")
-            os.makedirs("output/csv")
-            os.makedirs("output/SW")
-            os.makedirs("output/SW/extrudes")
-        if not os.path.exists("logs"):
-            os.makedirs("logs")
+        if not os.path.exists(self.project_name + "output"):
+            os.makedirs(self.project_name + "output")
+            os.makedirs(self.project_name + "output/csv")
+            os.makedirs(self.project_name + "output/SW")
+            os.makedirs(self.project_name + "output/SW/extrudes")
+            copyfile("bin/batch_combine.swp", self.project_name + "batch_combine.swp")
+            copyfile("bin/batch_test.swp", self.project_name + "batch_test.swp")
+            copytree("bin/input", self.project_name + "input")
+        if not os.path.exists(self.project_name + "logs"):
+            os.makedirs(self.project_name + "logs")
         return None
 
     def intermediates(self, p1, p2, z):
@@ -175,4 +190,4 @@ class Processor():
 
 
 # Here the script is run and where the correct settings are put in
-Processor(filename="model.gcode").write_csv()
+Processor(project_name="stress_test_part").write_csv()
