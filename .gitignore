@@ -4,3 +4,7 @@ Old/
 output/
 SW/
 .idea/
+
+# gcode files
+~.gcode
+
