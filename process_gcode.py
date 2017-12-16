@@ -159,4 +159,4 @@ class Processor():
         return key_name
 
 # Here the script is run and where the correct settings are put in
-Processor(filename="test_part.txt").write_csv()
+Processor(filename="model.gcode").write_csv()
