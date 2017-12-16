@@ -6,5 +6,5 @@ SW/
 .idea/
 
 # gcode files
-~.gcode
+*.gcode
 
