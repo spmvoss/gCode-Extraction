@@ -3,6 +3,7 @@ Old/
 output/SW/extrudes/*.SLDPRT
 output/SW/combined.SLDPRT
 .idea/
+test_part/
 
 # ignore all txt files
 *.txt

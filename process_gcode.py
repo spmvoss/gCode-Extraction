@@ -22,14 +22,16 @@ class Processor():
         :param use_intermediates: Boolean True = intermediate points will be generated when distance > max_dist
         """
         self.filename = filedialog.askopenfilename()
+        print()
         self.min_dist = min_dist
         self.use_inter = use_intermediates
 
         if project_name:
             self.project_name = project_name + "/"
         else:
-            self.project_name = filename.split(".", -1) + "/"
-            print(self.project_name)
+            # If no project name is given, the project name is created from the gcode name
+            name = self.filename[(len(self.filename) - self.filename[::-1].find("/")):].split(".")[0]
+            self.project_name = name + "/"
 
         self.csv_dir = self.project_name + csv_out_directory
 
@@ -55,6 +57,7 @@ class Processor():
             copyfile("bin/batch_combine.swp", self.project_name + "batch_combine.swp")
             copyfile("bin/batch_test.swp", self.project_name + "batch_test.swp")
             copytree("bin/input", self.project_name + "input")
+            print("Created project: \n", self.project_name)
         if not os.path.exists(self.project_name + "logs"):
             os.makedirs(self.project_name + "logs")
         return None
@@ -190,4 +193,4 @@ class Processor():
 
 
 # Here the script is run and where the correct settings are put in
-Processor(project_name="stress_test_part").write_csv()
+Processor().write_csv()
