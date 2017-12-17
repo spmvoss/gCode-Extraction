@@ -55,7 +55,7 @@ class Processor():
             os.makedirs(self.project_name + "output/SW")
             os.makedirs(self.project_name + "output/SW/extrudes")
             copyfile("bin/batch_combine.swp", self.project_name + "batch_combine.swp")
-            copyfile("bin/batch_test.swp", self.project_name + "batch_test.swp")
+            copyfile("bin/batch_extrude.swp", self.project_name + "batch_extrude.swp")
             copytree("bin/input", self.project_name + "input")
             print("Created project: \n", self.project_name)
         if not os.path.exists(self.project_name + "logs"):
